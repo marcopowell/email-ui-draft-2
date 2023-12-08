@@ -1,0 +1,20 @@
+.nav-icons {
+    color: rgb(22, 103, 184);
+}
+
+.icons-menu {
+    font-size: 1em;
+}
+
+#icon-active {
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 2em;
+}
+
+.link {
+    color:rgb(93, 94, 90);
+}
+.link:hover {
+    color:rgb(208, 208, 42);
+}
