@@ -1,14 +1,19 @@
-.nav-icons {
-    color: rgb(22, 103, 184);
+body {
+    height: 100vh;
 }
 
-.icons-menu {
+.nav-icons {
+    color: rgb(37, 117, 198);
+}
+
+.icons-bottom-menu {
     font-size: 1em;
+    color: rgb(37, 117, 198);
 }
 
 #icon-active {
-    color: #fff;
-    text-shadow: 1px 1px 1px #ccc;
+    color: rgb(214, 191, 101);
+    text-shadow: 1px 1px 1px rgb(37, 117, 198);
     font-size: 2em;
 }
 
@@ -17,4 +22,30 @@
 }
 .link:hover {
     color:rgb(208, 208, 42);
+}
+
+.email-list {
+    overflow: scroll;
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+    .opened-email {
+        display: none;
+    }
+    /*.main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 30px;
+    }*/
+} 
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    .mobile-icons {
+        display: none;
+    }
 }
