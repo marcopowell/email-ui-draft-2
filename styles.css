@@ -49,3 +49,20 @@ body {
         display: none;
     }
 }
+
+/* Medium devices (tablets, 992px and up)*/
+@media (min-width: 992px) {
+
+    .list-full {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .opened-email {
+        background-color: blueviolet;
+        height: 500px;
+        overflow: scroll;
+    }
+
+    
+}
