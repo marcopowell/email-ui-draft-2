@@ -12,9 +12,9 @@ body {
 }
 
 #icon-active {
-    color: rgb(214, 191, 101);
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px rgb(37, 117, 198);
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .link {
@@ -31,10 +31,10 @@ body {
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
 
-    .opened-email {
+    /*.opened-email {
         display: none;
     }
-    /*.main-container {
+    .main-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -42,16 +42,37 @@ body {
     }*/
 } 
 
+/*Small devices (landscape phones, less than 992px)*/
+@media (max-width: 992px) {
+
+    .opened-email {
+        display: none;
+    }
+} 
+
+/*Small devices (landscape phones, larger than 1200px)*/
+/*@media (min-width: 1200px) {
+    .vt-nav {
+        display: flex;
+        
+        height: 500px;
+    }
+} */
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
-    .mobile-icons {
+    /*.mobile-icons {
         display: none;
-    }
+    }*/
 }
 
 /* Medium devices (tablets, 992px and up)*/
 @media (min-width: 992px) {
+
+    .mobile-icons {
+        display: none;
+    }
 
     .list-full {
         display: flex;
@@ -59,10 +80,16 @@ body {
     }
 
     .opened-email {
-        background-color: blueviolet;
+        /*background-color: blueviolet;*/
         height: 500px;
         overflow: scroll;
     }
+}
 
-    
+/* Medium devices (tablets, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    .mobile-icons {
+        display: none;
+    }
 }

@@ -11,155 +11,195 @@
 <body class="d-flex flex-column align-items-center bg-body-secondary mt-5">
 
     <h1 class="d-inline">Email UI : Draft 2</h1>
-    <p>This is the second draft</p>
-
+    <br>
 
     <!--SAMPLE NAV BAR-->
     <div class="container main-container pt-4 bg-white rounded-4 border border-warning" style="height: 650px">
         <div class="row">
             <!-----------------Navigation Menu---------------->
-            <div class="col-12" style="height:50px">
-                <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
-                    <div class="container-fluid bg-primary-subtle rounded" style="height: fit-content;">
-                        <a class="navbar-brand d-flex justify-content-start" href="#"><img src="images/Gmail-Logo.wine.svg" style="width:60px; margin-bottom: 0px;" alt="GmailLogo "></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" style="background-color:rgb(37, 117, 198);">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+            <div class="full-columns">
+
+            
+                <div class="col-12 col-xl-3 nav-height">
+                    <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
+                        <div class="container-fluid vt-nav bg-primary-subtle rounded" style="height: fit-content;">
+                            <a class="navbar-brand d-flex justify-content-start" href="#"><img src="images/Gmail-Logo.wine.svg" style="width:60px; margin-bottom: 0px;" alt="GmailLogo "></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" style="background-color:rgb(37, 117, 198);">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            
+                            <di class="collapse navbar-collapse" id="collapsibleNavbar">                           
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-inbox"></i> Inbox (6)</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-paper-plane"></i> Sent</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-star"></i> Starred</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-paperclip"></i> Drafts(1)</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-trash-can"></i> Trash</a>
+                                        </li>
+                                    </ul>
+                            </div>
                         
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-inbox"></i> Inbox (6)</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-paper-plane"></i> Sent</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-star"></i> Starred</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-paperclip"></i> Drafts(1)</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link link" href="#"><i class="nav-icons fa-solid fa-trash-can"></i> Trash</a>
-                                </li>
-                            </ul>
                         </div>
-                       
+                    </nav>
+                </div>
+
+                <div class="list-full">
+                <!----------------- Email list---------------->
+
+                    <div class="col-12 col-lg-6 col-xl-4" style="height: 495px">
+                        <div class="container-fluid email-list border h-100 mt-2">
+                            <div class="container" style="width: 90%;">
+                                <div class="row pt-3">
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
+                                    </div>
+                                    <hr>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
+                                    </div>
+                                    <hr>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
+                                    </div>
+                                    <hr>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
+                                    </div>
+                                    <hr>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
+                                    </div>
+                                    <hr>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
+                                    </div>
+                                    <hr>
+                                    <p class="text-center" style="font-size: 12px;"">Terms of Service</p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                </nav>
-            </div>
-
-            <div class="list-full">
-            <!----------------- Email list---------------->
-
-                <div class="col-12 col-lg-6" style="height: 495px">
-                    <div class="container-fluid email-list border border-primary h-100 mt-2">
-                        <div class="container" style="width: 90%;">
-                            <div class="row pt-3">
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
-                                </div>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
-                                </div>
-                                <div class="col-12">
-                                    <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
-                                </div>
-                                <div class="col">
-                                    <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
-                                </div>
-                                <hr>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
-                                </div>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
-                                </div>
-                                <div class="col-12">
-                                    <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
-                                </div>
-                                <div class="col">
-                                    <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
-                                </div>
-                                <hr>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
-                                </div>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
-                                </div>
-                                <div class="col-12">
-                                    <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
-                                </div>
-                                <div class="col">
-                                    <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
-                                </div>
-                                <hr>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
-                                </div>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
-                                </div>
-                                <div class="col-12">
-                                    <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
-                                </div>
-                                <div class="col">
-                                    <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
-                                </div>
-                                <hr>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
-                                </div>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
-                                </div>
-                                <div class="col-12">
-                                    <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
-                                </div>
-                                <div class="col">
-                                    <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
-                                </div>
-                                <hr>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 700;">Marco Powell</p>
-                                </div>
-                                <div class="col-6">
-                                    <p style="font-size: 16px; font-weight: 200;">12/09/23 3:24PM</p>
-                                </div>
-                                <div class="col-12">
-                                    <p style="font-size: 16px; font-weight: 700;">New schedule starting tomorrow</p>
-                                </div>
-                                <div class="col">
-                                    <p>Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguir..</p>
-                                </div>
-                                <hr>
-                                <p class="text-center" style="font-size: 12px;"">Terms of Service</p>
+                    
+                    <!----------------- Bottom Menu / Options ---------------->
+                    <div class="col-12 mobile-icons">
+                        <div class=" bg-primary-subtle rounded rounded-top-3 d-flex flex-row justify-content-around align-items-center stycky-bottom" style="height:50px">                    
+                            <div class="icons-menu">
+                                    <i class="fa-solid fa-house" id="icon-active"></i>
+                            </div>
+                            <div class="icons-bottom-menu">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </div>
+                            <div class="icons-bottom-menu">
+                                    <i class="fa-solid fa-user"></i>
                             </div>
                         </div>
+                    </div>
 
+                    <!----------------- Opened Email ---------------->
+                    <div class="col col-lg-6 col-xl-5 border-bottom mt-1 opened-email">
+                        <div class="container mt-3">
+                            <div class="container">
+                                <div class="row">
+                                    
+                                    <div class="col-6 pt-2">
+                                        <h5>Marco Powell</h5>
+                                        <h6 class="card-title text-muted">New schedule starting tomorrow</h6>
+                                    </div>
+                                    <div class="col-3 pt-2">
+                                        <h6>12/9/2023 3:24PM</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="section-2-hr">
+                            <div class="pt-3 email-content">
+                                <p>
+                                    Hello, 
+                                    <br>
+                                    <br>
+                                    Donec quis velit in sapien tincidunt fermentum. Cras ornare diam id massa volutpat doret dom ren aguired blandit erat erat, vitae efficitur libero egestas sed. Morbi dolor neque, molestie tincidunt lacinia a, dictum tincidunt nisi. Ut nec mi dignissim, mollis lacus vel, luctus turpis. Donec vitae aliquam felis. Nullam imperdiet laoreet odio, ac porta neque volutpat et. Phasellus in tristique ipsum. Fusce finibus, ligula sed scelerisque luctus, quam nunc fermentum enim, a sagittis felis sem non lectus.
+                                    <br>
+                                    <br>
+                                    Praesent convallis venenatis magna ac lacinia. Cras sagittis odio id est fringilla, ac lobortis sem pretium. Donec convallis leo at dignissim placerat. Proin vehicula ullamcorper auctor.
+                                    <br>
+                                    <br>
+                                    Nam sed justo iaculis, mollis tellus eget, efficitur lorem. Aliquam at diam eget augue efficitur maximus et sed urna. 
+                                    <br>
+                                    <br>
+                                    Lorem ipsum dolor sit amet.
+                                    <br>
+                                    <br>
+                                    Thank you, 
+                                    <br>
+                                    <br>
+                                    Marco Powell
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
-                <!----------------- Bottom Menu / Options ---------------->
-                <div class="col-12 mobile-icons">
-                    <div class=" bg-primary-subtle rounded rounded-top-3 d-flex flex-row justify-content-around align-items-center stycky-bottom" style="height:50px">
-                        <div class="icons-menu">
-                            <i class="fa-solid fa-house" id="icon-active"></i>
-                    </div>
-                    <div class="icons-bottom-menu">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                    </div>
-                    <div class="icons-bottom-menu">
-                            <i class="fa-solid fa-user"></i>
-                    </div>
-                    </div>
-                </div>
-
-                <!----------------- Opened Email ---------------->
-                <div class="col col-lg-6 border border-danger rounded-3 opened-email">
-                    
                 </div>
             </div>
         </div>
